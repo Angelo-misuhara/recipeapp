@@ -1,9 +1,11 @@
+import { useState } from "react"
 
 const Navbar = () => {
+
+  const [isShow, setShow] = useState(true);
   return (
     <>
-        <div>
-      
+
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" className="flex items-center">
@@ -34,10 +36,9 @@ const Navbar = () => {
           <a href="#" className="lista block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#c5c22a] md:p-0 dark:text-white md:dark:hover:text-[#c5c22a] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
         </li>
       </ul>
-    </div>
+          </div>
   </div>
 </nav>
-    </div>
     </>
   )
 }
