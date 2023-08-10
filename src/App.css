@@ -14,5 +14,11 @@ color: #262602;
   font-family: 'Preahvihear', sans-serif;
   font-weight: bolder;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
+  #pcvview{
+    display:none;
+  }
+  #phoneview{
+    display: flex;
+  }
 }
