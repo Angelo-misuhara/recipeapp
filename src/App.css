@@ -8,7 +8,9 @@ color: #030303;
 .lista{
   font-weight:700;
 }
-
+.tittleintro{
+  font-family: 'Preahvihear';
+}
 
 .intro-logo{
  font-family: 'Vast Shadow', cursive;
@@ -22,6 +24,7 @@ color: #030303;
     display: flex;
   }
   #introsloggan{
+    padding-top: 2rem;
     text-align: start;
     font-size: 2.6rem;
   }
