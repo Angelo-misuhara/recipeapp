@@ -2,9 +2,9 @@
 const HomePage = () => {
   return (
     <>
-      <div className=" flex justify-center overflow-hidden w-screen">
+      <div className=" flex flex-row justify-center overflow-hidden w-screen">
         <div className=" grid place-content-center border p-9 bg-[url('/img/backgroundpiccook.jpg')] rounded-md  w-[78.5rem] h-[20rem] bg-repeat bg-cover">
-          <h1 className=" text-center  font-black  text-5xl font-[Preahvihear] text-[#765827]" id="introsloggan">Delightful Dishes, Effortlessly Discovered</h1>
+          <h1 className=" text-center  font-black  text-5xl font-[Preahvihear] text-[#427143]" id="introsloggan">Delightful Dishes, Effortlessly Discovered</h1>
           <div className="py-9">
             <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative">
@@ -18,7 +18,13 @@ const HomePage = () => {
     </div>
           </div>
         </div>
-        
+      </div>
+      <div className="flex flex-row justify-center w-screen">
+        <div className=" w-[78.5rem]">
+          <div>
+            
+          </div>
+        </div>
       </div>
     </>
   )
