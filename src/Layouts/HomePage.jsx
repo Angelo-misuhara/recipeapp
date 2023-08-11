@@ -6,7 +6,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className=" flex flex-row justify-center overflow-hidden w-screen">
+      <div className=" flex flex-row justify-center overflow-hidden w-screen border">
         <div className=" grid place-content-center border p-9 bg-[url('/img/backgroundpiccook.jpg')] rounded-md  w-[78.5rem] h-[20rem] bg-repeat bg-cover">
           <h1 className=" text-center  font-black  text-5xl font-[Preahvihear] text-[#427143]" id="introsloggan">Delightful Dishes, Effortlessly Discovered</h1>
           <div className="py-9">

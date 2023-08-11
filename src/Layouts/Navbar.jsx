@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <>
 
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 border">
         {/* pc vview */}
-  <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" id="pcvview">
+  <div className=" max-w-screen-xl flex flex-wrap items-center justify-between border mx-auto p-4" id="pcvview">
     <a href="#" className="flex items-center">
         <img src='/img/icon-cooking32.png' className="h-8 mr-3" alt="Flowbite Logo" />
         <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="text-[#427143]">Inaaa</span></span>
