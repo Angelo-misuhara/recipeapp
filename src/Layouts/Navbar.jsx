@@ -13,7 +13,7 @@ const Navbar = () => {
   <div className=" max-w-screen-xl flex flex-wrap items-center justify-between border mx-auto p-4" id="pcvview">
     <a href="#" className="flex items-center">
         <img src='/img/icon-cooking32.png' className="h-8 mr-3" alt="Flowbite Logo" />
-        <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="text-[#427143] font-['Vast Shadow', cursive]">Inaaa</span></span>
+        <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="introoo text-[#427143]">Inaaa</span></span>
           </a>
           <div>
             <ul className="flex flex-row flex-wrap gap-7">
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className=" hidden max-w-screen-xl  flex-wrap items-center justify-between mx-auto p-4" id="phoneview">
           <a href="#" className="flex items-center">
         <img src='/img/icon-cooking32.png' className="h-8 mr-3" alt="Flowbite Logo" />
-        <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="text-[#427143] font-['Vast Shadow', cursive]v">Inaaa</span></span>
+        <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="introoo text-[#427143]v">Inaaa</span></span>
           </a>
           <div>
           <img src={isShow ? '/img/reject32.png' : '/img/hamburger32.png'} alt="" onClick={()=> setShow(!isShow)} />
