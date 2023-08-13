@@ -34,4 +34,12 @@ color: #030303;
     display: flex;
     flex-direction: column;
   }
+  #dishes{
+    display: flex;
+    flex-direction: column;
+  }
+  #tit2tle{
+    font-size: 2rem;
+    font-weight: 900;
+  }
 }

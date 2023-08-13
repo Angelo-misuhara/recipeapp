@@ -8,14 +8,14 @@ const Navbar = () => {
   return (
     <>
 
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 border">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 overflow-hidden">
         {/* pc vview */}
-  <div className=" max-w-screen-xl flex flex-wrap items-center justify-between border mx-auto p-4" id="pcvview">
+  <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 overflow-hidden" id="pcvview">
     <a href="#" className="flex items-center">
         <img src='/img/icon-cooking32.png' className="h-8 mr-3" alt="Flowbite Logo" />
         <span className="intro-logo self-center text-2xl font-bold whitespace-nowrap dark:text-white">Cooking <span className="introoo text-[#427143]">Inaaa</span></span>
           </a>
-          <div>
+          <div className="overflow-hidden">
             <ul className="flex flex-row flex-wrap gap-7">
               {ul.map((item, key) => (
                 <li key={key} className=" font-semibold hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#427143] md:p-0 dark:text-white md:dark:hover:text-[#c5c22a] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
